@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+nav{
+    background-color: rgb(66, 66, 66);
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 8rem;
+    justify-content: space-between;
+}
+.nav{
+    width: 100%;
+    display: flex;
+    color: black;
+    background-color: #11ffc8;
+    align-items: center;
+    padding: 0.5rem 8.5rem;
+    
+}
+.web-name{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+    color: #0fffc7;
+    text-transform: capitalize;
+}
+.no{
+    margin-right: 15px;
+}
+.Phone{
+    margin-left: 5px;
+    color: black;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.fa-phone-alt{
+    color: black;
+    /* margin-left: 4rem; */
+}
+.fa-envelope{
+    /* margin-left: 4rem; */
+    color: black;
+}
+.emailat{
+    margin-left: 5px;
+    color: black;
+    text-decoration: none;
+}
+.selectors{
+    list-style: none;
+    display: flex;
+    
+}
+.selectors li a{
+    padding: 8px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.9vw;
+    color:#11ffc8 ;
+    text-transform: uppercase;
+    cursor: pointer;
+    text-decoration: none;
+}
+.hero{
+    display: flex;
+    align-items: center;
+}
+.fa-search{
+    color: #11ffc8;
+}
+
+@media (max-width:768px) {
+    .selectors li a{
+        font-size: 2vw;
+    }
+    .nav{
+        display: none;
+    }
+    nav{
+        background-color: rgb(66, 66, 66);
+        display: flex;
+        align-items: center;
+        padding: 0.5rem 2rem;
+        justify-content: space-between;
+    }
+    .hero{
+        display: flex;
+        align-items: center;
+    }
+    .hero img{
+        width: 20px;
+    }
+    .web-name{
+        font-size: 3vw;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 5px;
+        color: #0fffc7;
+        text-transform: capitalize;
+    }
+}
